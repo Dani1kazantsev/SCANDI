@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="keywords" content="дизайн,интерьер">
   <meta name="description" content="SKANDI">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="img/icons/icon.ico">
   <link rel="stylesheet" href="css/style.css">
   <title>SCANDI</title>
@@ -11,18 +12,22 @@
 <body>
   <header class="header">
     <div class="header-inner container">
-     <a href="#"><h1 class="title"><img class="logo" src="img/header/logo/logo.svg" alt="logo">scandi</h1></a>
-     <nav class="menu">
-      <ul class="menu-list ulres">
-        <li><a class="menu-item" href="#about">О компании</a></li>
-        <li><a class="menu-item" href="#works">Портфолио</a></li>
-        <li><a class="menu-item" href="#team">Команда</a></li>
-        <li><a class="menu-item" href="#how-working">Как мы работаем</a></li>
-        <li><a class="menu-item" href="#reviews">Отзывы клиентов</a></li>
-        <li><a class="menu-item" href="#application">Оставить заявку</a></li>
-      </ul>
-    </nav>
-    <a class="menu-item tel" href="tel:+7 (981) 857-46-24">+7 (981) 857-46-24</a>
+      <div class="header-inner__menu">
+       <a href="#"><h1 class="title"><img class="logo" src="img/header/logo/logo.svg" alt="logo">scandi</h1></a>
+       <nav class="menu">
+        <ul class="menu-list ulres">
+          <li><a class="menu-item" href="#about">О компании</a></li>
+          <li><a class="menu-item" href="#works">Портфолио</a></li>
+          <li><a class="menu-item" href="#team">Команда</a></li>
+          <li><a class="menu-item" href="#how-working">Как мы работаем</a></li>
+          <li><a class="menu-item" href="#reviews">Отзывы клиентов</a></li>
+          <li><a class="menu-item" href="#application">Оставить заявку</a></li>
+        </ul>
+      </nav>
+      <a class="menu-item tel" href="tel:+7 (981) 857-46-24">+7 (981) 857-46-24</a>
+      <button class="menu-open">
+      </button>
+    </div>
     <div class="header-content container-slender">
       <h2 class="header-text-h">Поможем сделать вашу квартиру уютнее</h2>
       <p class="header-text-desc">
@@ -41,7 +46,7 @@
         <img class="about-img" src="img/main/about/about-1.png" alt="about">
         <div class="about-right">
           <p class="about-text">
-            Премиальный европейский текстиль&nbsp;&mdash; одно из самых главных направлений работы коллектива.&nbsp;Создавать неповторимые интерьеры для наших&nbsp;дорогих клиентов, уделяя внимание мельчайшим&nbsp;деталям&nbsp;&mdash; вот&nbsp;то, что по-настоящему вдохновляет дизайнеров нашей студии.
+            Премиальный европейский текстиль&nbsp;&mdash; одно из самых главных направлений работы коллектива.&nbsp;Создавать неповторимые интерьеры для наших&nbsp;дорогих клиентов, уделяя внимание мельчайшим&nbsp;деталям&nbsp;&mdash; вот&nbsp;то, чт`о по-настоящему вдохновляет дизайнеров нашей студии.
           </p>
 
           <p class="about-text">
@@ -236,6 +241,10 @@
       </li>
     </ul>
     <button class="reviews-button reviews-button-right"></button>
+    <div class="reviews-buttons__mobile">
+      <button class="reviews-button__mobile"></button>
+      <button class="reviews-button__mobile reviews-button__mobile-right"></button>
+    </div>
   </div>
 </section>
 
@@ -270,5 +279,7 @@
   </div>
   <span class="footer-span" href="#">ИП Королёва А.А.</span>
 </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
